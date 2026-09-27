@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "module": "NodeNext", "moduleResolution": "NodeNext", "noEmit": false, "outDir": "dist", "rootDir": ".", "types": ["node"] },
+  "include": ["server", "shared", "scripts/environment.mjs"],
+  "exclude": ["node_modules", "dist"]
+}
